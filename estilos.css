@@ -2,21 +2,29 @@ body{
     background-color: #ffefd5;
     border-radius: 10px;
     width: 800px; 
-    margin: 0 auto;}
+    margin: 0 auto;
+    background-image: url('unnamed.png');
+  }
 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     font-family: open-sans, sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.navbar{
+  background: #d4c09980; 
+  padding: 10px 0;      
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;  
+}
 .navbar ul {
   list-style: none;      
-  margin: 10;
+  margin: 0;
   display: flex;         
-  gap: 80px;             
-  justify-content: center; 
+  justify-content: center;
+  align-items: center; 
 }
 
 
@@ -33,12 +41,26 @@ h1{
 .navbar a:hover {
   background: #eee;   
 }   
+section{
+    text-align: center;
+    margin-top: 20px;
+}
 #formulario {
     background-color: #fff8dc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #contacto{
+    background-color: #fff8dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;    
+  }
 label{
     display: block;
     margin-bottom: 10px;
@@ -50,34 +72,100 @@ label{
     border-radius: 50%; ;
     border-color: black;
 }
-.imagen-fondo {
-    text-align: center;
-    margin-top: 20px;
-    height: 400px;
-}
+
 ul{
     display: flex;
-    list-style: none;
     gap: 20px;
     list-style: none;
     padding: 0;
 }
+#redes {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-top: 20px;
+}
+
 .red {
   text-decoration: none;
   padding: 10px;
   border-radius: 50%;
   transition: background 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .red:hover {
   background: #eee;
 }
+
+.red img {
+  width: 30px;
+  height: 30px;
+}
+
 #contacto{
   padding: 20px;
 }
 #panaderia{
     margin: 0 auto;
+    background-color: #fff8dc;
 }
-.imagen{ 
-  margin: 0 auto;
+
+.panes, .pasteleria-bolleria, .empanadas{
   text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.panes img, .pasteleria-bolleria img, .empanadas img {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s;
+
+}
+.panes img:hover, .pasteleria-bolleria img:hover, .empanadas img:hover {
+  transform: scale(1.05);
+}
+h3{
+  background: #fff8dc;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+p{
+ background: #fff8dc;
+ margin: 20px 0;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #4d2f0a;
+  margin-top: 5px;
+  line-height: 2.5;
+}
+button{
+  border-radius: 15px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.horno{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
 }

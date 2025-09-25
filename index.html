@@ -7,11 +7,10 @@
     <link rel="icon" type="image/x-icon" href="icono-pan.png">
 </head>
 <body>
-    <div class="div-grande">
     <header>
         <nav class="navbar">
             <ul><!-- por defecto la página se va a mostrar en español -->
-                <li><img src="icono-pan.png" alt="Logo Migas Amigas" width="75" id="pan"></li>
+                <li><img src="Migas-y-Amigas.png" alt="Logo Migas Amigas" width="75" id="pan"></li>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -24,47 +23,85 @@
 
     <main>
             <h1>Migas y Amigas</h1>
-            <div class="imagen">
-                <img src="panaderia.png" id="panaderia" alt="Interior de la panadería Migas y Amigas" width="600" height="300">
-            </div>
         <section class="fondo">      
-            <p>
+            <p id="panaderia">
                 Bienvenidos a Migas y Amigas, tu panadería de confianza.<br>
-                Aquí encontrarás una variedad de panes frescos y deliciosos, hechos con amor y los mejores ingredientes.<br>
-                ¡Disfruta de nuestros productos y comparte momentos especiales con tus seres queridos!
+                Nuestra panadería cuenta con una larga tradición familiar, transmitida de generación en generación, y se encuentra en una pequeña localidad fronteriza entre Portugal y España.<br>
+                Aquí, elaboramos una variedad de panes frescos y deliciosos, hechos con amor y los mejores ingredientes, respetando las recetas artesanales de la región.<br>
+                Nos enorgullece ser un punto de encuentro para vecinos y viajeros, ofreciendo productos únicos que reflejan la riqueza cultural de ambas fronteras.<br>
+                ¡Disfruta de nuestros productos y comparte momentos especiales con tus seres queridos en Migas y Amigas!
             </p>
         </section>
-
-        <section id="contacto" >
-            <h2>Contacto</h2>
+         <h2>Tradición del pan español y portugués</h2>
+                <p>
+                    El pan es un elemento fundamental en la cultura gastronómica tanto de España como de Portugal. En España, cada región tiene sus propias variedades y técnicas, desde la famosa barra de pan hasta hogazas artesanales como la gallega o la castellana. En Portugal, destacan el pão alentejano y el broa de maíz, elaborados con recetas ancestrales que reflejan la diversidad del país.
+                </p>
+        <section>
+            <img src="horno-piedra.png" alt="Panadería" width="600" height="400" class="horno">
+        </section>
+        <section>
+            <article>
+               
+                <p>
+                    Los hornos de piedra han sido clave en la elaboración tradicional de ambos países. Estos hornos permiten una cocción uniforme y aportan al pan una corteza crujiente y un sabor inconfundible. La tradición de hornear en piedra se mantiene viva en muchas panaderías familiares, preservando el auténtico sabor y aroma del pan artesanal.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Beneficios del Pan Artesanal</h2>
+            <p>
+                El pan artesanal ofrece una serie de beneficios que lo distinguen del pan industrial. En primer lugar, su elaboración se basa en ingredientes naturales y de alta calidad, sin aditivos ni conservantes. Esto se traduce en un producto más saludable y sabroso.
+            </p>
+            <p>
+                Además, el pan artesanal se caracteriza por su proceso de fermentación lenta, lo que mejora su digestibilidad y potencia su sabor. Cada hogaza cuenta con una personalidad única, resultado del cuidado y la dedicación de los panaderos.
+            </p>
+        </section>
+       
+        <section id="Reseña" >
+            <h2>¿Quieres recibir nuestras novedades?<br>
+                ¡Suscríbete a nuestro boletín!
+            </h2>
             <form method="post" id="formulario" >
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
-                <input type="submit" value="Enviar">
+                <br>
+                <input type="submit" value="Enviar" id="enviar">
             </form>
         </section>
-
-        <aside id="redes">
-            <h2>Redes Sociales</h2>
-            <a href="https://www.facebook.com/migasamigas" target="_blank">
-                <img src="facebook.png" alt="Facebook" width="30" class="red">
+         <section>
+            <h2>Horario de Atención</h2>
+            <p>
+                Lunes a Viernes: 7:00 AM - 8:00 PM<br>
+                Sábados: 8:00 AM - 6:00 PM<br>
+                Domingos: Cerrado
+            </p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Calle de la Panadería, 123, Ciudad, País</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p>Email: contacto@migasamigas.com</p>
+        </section>
+            <h2>Síguenos en Redes Sociales</h2>
+        <div id="redes">
+            <a href="https://www.facebook.com/migasamigas" target="_blank" class="red">
+                <img src="facebook.png" alt="Facebook" width="30">
             </a>
-            <a href="https://x.com/migasamigas" target="_blank">
-                <img src="x.png" alt="Twitter" width="30" class="red">
+            <a href="https://x.com/migasamigas" target="_blank" class="red">
+                <img src="x.png" alt="Twitter" width="30">
             </a>
-            <a href="https://www.instagram.com/migasamigas/" target="_blank">
-                <img src="instagram.png" alt="Instagram" width="30" class="red">
+            <a href="https://www.instagram.com/migasamigas/" target="_blank" class="red">
+                <img src="instagram.png" alt="Instagram" width="30">
             </a>
-        </aside>
+        </div>
     </main>
-
+    <!-- Croquis de ubicacion -->
     <footer>
         <p>© 2024 Migas y Amigas. Todos los derechos reservados.</p>
     </footer>
-    </div>
+    
 </body>
 </html>
