@@ -59,7 +59,19 @@ section{
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: 0 auto;    
+    margin: 0 auto;
+  }
+  #contacto p{
+      transition: transform 0.3s;
+
+  }
+  #contacto p:hover{
+      transform: scale(1.05);
+  }
+  #atencion, #boletin{
+    max-width: 200px;
+    margin: 0 auto;
+    justify-content: center; 
   }
 label{
     display: block;
@@ -105,30 +117,29 @@ ul{
   height: 30px;
 }
 
-#contacto{
-  padding: 20px;
-}
+
 #panaderia{
     margin: 0 auto;
     background-color: #fff8dc;
 }
 
-.panes, .pasteleria-bolleria, .empanadas{
+.catalogo-productos{
   text-align: center;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  flex-direction: row
 }
-.panes img, .pasteleria-bolleria img, .empanadas img {
+.catalogo-productos img {
   border-radius: 10px;
   width: 150px;
   height: 150px;
   transition: transform 0.3s;
 
 }
-.panes img:hover, .pasteleria-bolleria img:hover, .empanadas img:hover {
+.catalogo-productos img:hover {
   transform: scale(1.05);
 }
 h3{
@@ -138,8 +149,8 @@ h3{
   border-radius: 10px;
 }
 p{
- background: #fff8dc;
- margin: 20px 0;
+  background: #fff8dc;
+  margin: 20px 0;
   padding: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -168,4 +179,9 @@ h2{
     text-align: center;
     font-size: 24px;
     margin: 20px 0;
+}
+#enviar, #carrito{
+  padding: 10px;
+  margin: 10px ;
+  border-radius: 10px ;
 }
