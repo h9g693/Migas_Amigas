@@ -37,6 +37,7 @@ h1{
   padding: 8px 16px;     
   border-radius: 10px;   
   transition: background 0.3s;
+  font-family: open-sans, sans-serif;
 }
 
 .navbar a:hover {
@@ -148,6 +149,7 @@ h3{
   padding: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  font-family: open-sans, sans-serif;
 }
 p{
   background: #fff8dc;
@@ -161,6 +163,7 @@ p{
   color: #4d2f0a;
   margin-top: 5px;
   line-height: 2.5;
+  text-align: center;
 }
 button{
   border-radius: 15px;
@@ -180,6 +183,7 @@ h2{
     text-align: center;
     font-size: 24px;
     margin: 20px 0;
+    font-family: open-sans, sans-serif;
 }
 #enviar, #carrito{
   padding: 10px;
@@ -220,6 +224,7 @@ h2{
   p, h3 {
     font-size: 13px;
     padding: 6px 0;
+    
   }
   #redes img {
     width: 24px;
