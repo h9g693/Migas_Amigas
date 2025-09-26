@@ -1,0 +1,1 @@
+Para este proyecto toda la documentación está en el archivo Guia de Estilos
